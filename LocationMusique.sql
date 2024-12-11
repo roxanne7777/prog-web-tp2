@@ -2,9 +2,9 @@ CREATE SCHEMA IF NOT EXISTS `LocationMusique` DEFAULT CHARACTER SET utf8 ;
 USE `LocationMusique`;
 
 -- --------------------------------------------------
--- Table `LocationMusique`.`Client`
+-- Table `LocationMusique`.`Clients`
 -- --------------------------------------------------
-CREATE TABLE Client (
+CREATE TABLE Clients (
     id INT AUTO_INCREMENT PRIMARY KEY,
     name VARCHAR(45) NOT NULL,
     address VARCHAR(100) NOT NULL,

@@ -3,7 +3,7 @@ namespace App\Models;
 use App\Models\CRUD;
 
 class Client extends CRUD{
-      protected $table = "client";
+      protected $table = "Clients";
       protected $primaryKey = "id";
       protected $fillable = ['name', 'address', 'phone', 'email'];   
 }
